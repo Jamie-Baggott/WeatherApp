@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/city"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtCity"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:autofillHints="Enter your City or choose from the dropdown"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-40dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:ems="10"
+        android:spinnerMode="dropdown"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/weather"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="184dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:ems="10"
+        android:spinnerMode="dropdown"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/thirdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/temperature"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:autofillHints="Enter your temperature in Celsius" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/fourthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/min_temp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtMin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:autofillHints="Enter your minimum temperature in Celsius"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/fifthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/max_temp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:autofillHints="Enter your maximum temperature in Celsius"/>
+
+    <Button
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save_city" />
+
+    <Button
+        android:backgroundTint="@color/green"
+        android:id="@+id/clearbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/clear_database" />
+
+    <Button
+        android:backgroundTint="@color/green"
+        android:id="@+id/retrunbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/return_to_weather" />
+
+    <Button
+        android:backgroundTint="@color/green"
+        android:id="@+id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/home" />
+
+
+</LinearLayout>

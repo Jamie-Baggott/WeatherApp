@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">R00149982 Assignment 2</string>
+    <string name="city">City</string>
+    <string name="weather">Weather</string>
+    <string name="temperature">Temperature</string>
+    <string name="min_temp">Min Temp</string>
+    <string name="max_temp">Max Temp</string>
+    <string name="save_city">Save City</string>
+    <string name="clear_database">Clear Database</string>
+    <string name="citytxt">City:</string>
+    <string name="weathertxt">Weather:</string>
+    <string name="temperaturetxt">Temperature:</string>
+    <string name="min_temptxt">Min Temp:</string>
+    <string name="max_temptxt">Max Temp:</string>
+    <string name="add_a_city">Add a City</string>
+    <string name="return_to_weather">Return to Weather</string>
+    <string name="home">Return Home</string>
+    <string name="see_the_weather">See the Weather</string>
+    <string name="welcomebanner">Weather App by Jamie Baggott</string>
+    <string name="about_us">About Us</string>
+    <string name="about">This is a weather app to see the type of weather and temperatures of different cities all over the world. You can add as many cities as you would like and display the information about them. \n\n You can also view this app in a Light Mode or a Dark Mode, whichever you\'d prefer.</string>
+    <string name="dark_mode_text">Click the button to switch to Dark Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_desc">This will switch the app to a dark colour scheme using a green and grey which would be more visually pleasing for some.</string>
+    <string name="light_mode_text">Click the Button to switch to Light Mode</string>
+    <string name="light_mode_desc">This will switch the app to use a light mode colour scheme of a white background and will be easier to read for some.</string>
+    <string name="light_mode">Light Mode</string>
+</resources>

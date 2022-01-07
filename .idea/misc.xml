@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/drawable/home.xml" value="0.5484375" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout-v21/activity_main_dark.xml" value="0.34479166666666666" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_details.xml" value="0.22" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_details_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_intro.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_intro_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_main.xml" value="0.4773550724637681" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/activity_main_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_home.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_home_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_info.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_info_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_settings.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/fragment_settings_dark.xml" value="0.3140625" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/list_row.xml" value="0.33" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/layout/list_row_dark.xml" value="0.34479166666666666" />
+        <entry key="..\:/Downloads/Jamie_Baggott_Assignment2/R00149982Assignment2/app/src/main/res/menu/bottom_nav_bar.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/SQL_Demo/SQL_Demo/app/src/main/res/layout/activity_details.xml" value="0.490036231884058" />
+        <entry key="..\:/Downloads/SQL_Demo/SQL_Demo/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
+        <entry key="..\:/Downloads/SQL_Demo/SQL_Demo/app/src/main/res/layout/list_row.xml" value="0.490036231884058" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/activity_details.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/activity_intro.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/activity_main_dark.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/fragment_home.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/fragment_home_dark.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/fragment_info.xml" value="0.5322916666666667" />
+        <entry key="..\:/Downloads/WeatherApp/WeatherApp/WeatherApp/app/src/main/res/layout/list_row.xml" value="0.5322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

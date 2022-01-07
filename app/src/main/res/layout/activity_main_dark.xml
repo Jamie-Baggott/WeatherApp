@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/city"
+        android:textColor="@color/green"/>
+
+    <EditText
+        android:id="@+id/txtCity"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:backgroundTint="@color/green"
+        android:autofillHints="Enter your City or choose from the dropdown"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-40dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:ems="10"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        android:backgroundTint="@color/green"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/weather"
+        android:textColor="@color/green"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="184dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:ems="10"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        android:backgroundTint="@color/green"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/thirdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/temperature"
+        android:textColor="@color/green"/>
+
+    <EditText
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:backgroundTint="@color/green"
+        android:autofillHints="Enter your temperature in Celsius"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fourthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/min_temp"
+        android:textColor="@color/green"/>
+
+    <EditText
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtMin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:backgroundTint="@color/green"
+        android:autofillHints="Enter your minimum temperature in Celsius"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fifthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/max_temp"
+        android:textColor="@color/green"/>
+
+    <EditText
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="-40dp"
+        android:id="@+id/txtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:visibility="visible"
+        android:autofillHints="Enter your maximum temperature in Celsius"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save_city" />
+
+    <Button
+        android:id="@+id/clearbutton"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/clear_database" />
+
+    <Button
+        android:id="@+id/retrunbutton"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/return_to_weather" />
+    <Button
+        android:id="@+id/homebutton"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/home" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@android:color/black"
+        app:itemTextColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_bar" />
+
+</LinearLayout>
